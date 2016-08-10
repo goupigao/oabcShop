@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="SmallGreyTextView">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/textSize_small</item>
+    </style>
+    <!-- spinner -->
+    <style name="spinner_style">
+        <item name="android:background">@drawable/spinner_selector</item>
+        <item name="android:paddingLeft">5dip</item>
+    </style>
+    <!-- Launch screens -->
+    <style name="Theme.Launch" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@mipmap/launch</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

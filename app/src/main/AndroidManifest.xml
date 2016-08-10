@@ -1,0 +1,28 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cc.oabc.shop">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.Launch">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginActivity"
+            android:label="@string/login"></activity>
+        <activity android:name=".PurchaseActivity"
+            android:label="@string/purchase"></activity>
+        <activity android:name=".OrderActivity"
+                  android:label="@string/orderDetail"></activity>
+    </application>
+
+</manifest>
